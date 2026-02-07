@@ -34,11 +34,17 @@ I am particularly interested in roles where data systems, model behavior, and tr
 - Achieved training loss < 0.1 and deployed Streamlit dashboards to monitor accuracy and loss trends.
 🔗 GitHub: https://github.com/RishCapitalent18/Fact-Checking-QnA-System--CG-and-MOEs
 
+---
+
 
 ### 🔹 Real-Time Suspicious Baggage Detection (Deep Object Detection)
 - Implemented YOLOv5-based object detection to identify and classify suspicious baggage.
 - Improved F1-confidence and precision–recall performance using focal loss (90.35% accuracy).
 🔗 GitHub: https://github.com/RishCapitalent18/Suspicious-Baggage-Detection-System
+
+
+---
+
 
 ### 🔹 End-to-End Credit Card Fraud Detection
 - Built an ML pipeline combining SOM-based anomaly detection and neural networks for fraud identification.
