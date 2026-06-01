@@ -43,7 +43,7 @@ Currently open to **ML/AI Engineer** and **Data Analyst** roles in the US — I'
 
 ## 🔬 Featured Projects
 
-> *Projects marked \* are collaborative group work — I've described my specific contributions in each repo's README.*
+> *Projects marked \* are collaborative group work - I've described my specific contributions in each repo's README.*
 
 ---
 
