@@ -1,69 +1,112 @@
-## Overview
+# Hi, I'm Rishabh 👋
 
-I build data-driven and AI-powered systems with the goal of delivering **trustworthy,
-measurable solutions to real-world business problems**. My experience spans **data
-engineering, data science, machine learning, and large language model (LLM) systems**,
-where I focus on transforming raw data into reliable insights and well-evaluated models
-that support informed decision-making.
+I'm an MS Computer Engineering grad from **Virginia Tech** (May 2026), specializing in AI and Data Analytics. I build things at the intersection of **data engineering, machine learning, and enterprise risk** — from LLM fine-tuning pipelines to fraud detection systems to GRC dashboards that actually get used.
 
-I have hands-on experience designing **data ingestion and transformation pipelines**,
-working with structured and semi-structured data, and enabling downstream analytics,
-feature engineering, and machine learning workflows. On top of these data foundations,
-I develop and evaluate ML and GenAI systems for tasks such as **reasoning optimization,
-hallucination mitigation, anomaly detection, and risk analysis**, emphasizing rigor,
-robustness, and reproducibility.
+Before grad school I spent 2+ years at **Wipro** as a Cybersecurity Analyst, where I ran risk assessments, built compliance pipelines, and designed the dashboards that helped teams track what actually mattered. That background shapes how I approach ML work: I care about pipelines being reproducible, metrics being interpretable, and results being actionable.
 
-My interest lies on applying AI in a **responsible and privacy-aware manner**,
-prioritizing **data quality, transparent metrics, and alignment with business objectives**.
-I am particularly interested in roles where data systems, model behavior, and trustworthiness intersect. 
-
-
-## Projects
-
-### 🔹 Large-Scale Reasoning Optimization via LLM Fine-Tuning
-- Built supervised fine-tuning (SFT) pipelines for Qwen2.5-3B Instruct to improve reasoning reliability.
-- Benchmarked performance on AIME 2024/2025 and GPQA Diamond (49.4% accuracy).
-- Developed YAML- and Bash-driven configurations for scalable experimentation.
-🔗 GitHub: https://github.com/RishCapitalent18/Project-Reasoning-SFT-LLM
+Currently open to **ML/AI Engineer** and **Data Analyst** roles in the US — I'm on OPT and available to start immediately.
 
 ---
 
-### 🔹 Hallucination Mitigation in LLMs (Knowledge Graphs + Mixture of Experts)
-- Designed a Knowledge-Graph-grounded Mixture-of-Experts QA system to reduce hallucinations in LLM outputs.
-- Analyzed hallucination failure modes and expert routing behavior using domain-specific datasets.
-- Achieved training loss < 0.1 and deployed Streamlit dashboards to monitor accuracy and loss trends.
-🔗 GitHub: https://github.com/RishCapitalent18/Fact-Checking-QnA-System--CG-and-MOEs
+## 🛠 Tech Stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)
+
+**ML / AI**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+
+**Data & Analytics**
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+
+**Cloud & Tools**
+
+![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=flat&logo=servicenow&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+
+**Certifications:** Azure SC-900 · AZ-900 · AI-900 · DP-900
 
 ---
 
+## 🔬 Featured Projects
 
-### 🔹 Real-Time Suspicious Baggage Detection (Deep Object Detection)
-- Implemented YOLOv5-based object detection to identify and classify suspicious baggage.
-- Improved F1-confidence and precision–recall performance using focal loss (90.35% accuracy).
-🔗 GitHub: https://github.com/RishCapitalent18/Suspicious-Baggage-Detection-System
-
+> *Projects marked \* are collaborative group work — I've described my specific contributions in each repo's README.*
 
 ---
 
+### 🤖 [Large-Scale Reasoning Optimization via LLM Fine-Tuning](https://github.com/RishCapitalent18/Project-Reasoning-SFT-LLM) *
+Fine-tuned **Qwen2.5-3B Instruct** using supervised fine-tuning (SFT) to improve multi-step reasoning reliability.
 
-### 🔹 End-to-End Credit Card Fraud Detection
-- Built an ML pipeline combining SOM-based anomaly detection and neural networks for fraud identification.
-- Optimized probability-based scoring, achieving 93.19% detection accuracy.
-🔗 GitHub: https://github.com/RishCapitalent18/credit-card-fraud-detection-ml
-
-## Additional Applied Projects
-
-### 🔸 Applied Multimodal Image Captioning Pipeline
-- Built an end-to-end vision–language system for automated image understanding and caption generation.
-- Designed reproducible data pipelines for image normalization, caption tokenization, and batch generation.
-- Evaluated model performance using BLEU-1 to BLEU-4 (0.08–0.34) and conducted error analysis to guide system improvements.
-*(code available upon request)*
+- Built end-to-end data preparation and training pipelines with dataset normalization, validation, and YAML/Bash-driven configuration for reproducible runs
+- Automated evaluation workflows benchmarked against **AIME 2024/25** and **GPQA Diamond** — achieved **49.4% on GPQA Diamond** (a hard reasoning benchmark where many 7B+ models score below 40%)
+- `PyTorch` `Hugging Face` `YAML` `Bash`
 
 ---
 
-### 🔸 Image Classification with Deep Residual Networks
-- Designed and optimized ResNet-based image classification pipelines for object recognition use cases.
-- Improved test accuracy from 65% to 76% through architecture tuning, optimizer selection, and regularization.
-- Applied transfer learning with ImageNet-pretrained ResNet-50 to accelerate convergence and improve generalization.
-*( code available upon request)*
+### 🧠 [Hallucination Mitigation in LLMs — Knowledge Graphs + MoE](https://github.com/RishCapitalent18/Fact-Checking-QnA-System--CG-and-MOEs) *
+Designed a Knowledge-Graph-grounded Mixture-of-Experts QA system to reduce hallucinations in LLM outputs.
 
+- Created and validated domain-specific datasets to analyze failure modes and expert routing behavior
+- Trained on **Qwen2.5-3B**, reducing training loss below **0.1**; deployed Streamlit dashboards to monitor accuracy and fairness trends
+- `PyTorch` `Knowledge Graphs` `Streamlit` `Qwen2.5`
+
+---
+
+### 🚨 [Credit Card Fraud Detection — End-to-End ML Pipeline](https://github.com/RishCapitalent18/credit-card-fraud-detection-ml)
+Solo project. Built a fraud detection system combining **Self-Organizing Maps** for anomaly detection with a neural network classifier.
+
+- Optimized probability-based scoring pipeline; achieved **93.19% detection accuracy**
+- `TensorFlow` `Keras` `NumPy` `Pandas`
+
+---
+
+### 📦 [Real-Time Suspicious Baggage Detection — YOLO](https://github.com/RishCapitalent18/Suspicious-Baggage-Detection-System) *
+YOLOv5-based object detection system for identifying suspicious items in real-time baggage screening.
+
+- Improved F1-confidence and precision-recall curves using focal loss; achieved **90.35% accuracy**
+- `YOLOv5` `Python` `OpenCV` `Streamlit`
+
+---
+
+## 💼 Work Highlights
+
+**Path Perception & Validation Engineer - Victor Tango SAE, Virginia Tech** *(Sep 2024 – Aug 2025)*
+Built a ROS-integrated MATLAB bench-testing framework to validate ADAS path perception pipelines. Engineered a PostgreSQL-backed Dijkstra routing system generating 4096-point waypoint arrays at ±1m centerline accuracy with <500ms response time.
+
+**Cybersecurity Analyst L2 - GRC, Risk & Data Analytics @ Wipro** *(Apr 2022 – Aug 2024)*
+Managed 140+ cybersecurity and cloud risk assessments through ServiceNow GRC. Designed risk-scoring models that surfaced 37% of critical risks earlier and cut remediation closure time by 25%. Built KPI dashboards used across compliance and security teams.
+
+---
+
+## 🔧 What I'm Exploring Next
+
+- GRPO-based reinforcement fine-tuning for multi-step reasoning tasks
+- RAG pipeline optimization for domain-specific QA
+- Building end-to-end analytics pipelines that go from raw data → insight → decision, not just model output
+- Tableau and Streamlit dashboards that make complex risk and compliance data actually readable for non-technical stakeholders
+---
+
+## 📫 Let's Connect
+
+I'm actively looking for **ML/AI Engineer** and **Data Analyst** roles where I can contribute from day one. I'm on OPT — no sponsorship needed to start.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rishabh--karthik--ramesh-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishabh-karthik-ramesh/)
+[![Email](https://img.shields.io/badge/Email-rishabhkramesh@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:rishabhkramesh@gmail.com)
+
+---
+
+![Rishabh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=RishCapitalent18&show_icons=true&theme=default&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RishCapitalent18&layout=compact&theme=default&hide_border=true)
