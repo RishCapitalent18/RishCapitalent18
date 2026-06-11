@@ -44,7 +44,13 @@ Currently open to **AI Engineer**, **Security Engineer**  and **Data Analyst** r
 ## 🔬 Featured Projects
 
 > *Projects marked \* are collaborative group work - I've described my specific contributions in each repo's README.*
+---
+### 🔍 [Financial LLM Hallucination Detector](https://github.com/RishCapitalent18/financial-hallucination-detector)
+Built a multi-signal hallucination detection pipeline for LLM-generated financial text and no API key required.
 
+- Combines NLI entailment (`cross-encoder/nli-deberta-v3-small`), numerical consistency checking, and semantic similarity into a weighted hallucination score
+- Streamlit dashboard with claim-by-claim breakdown, gauge chart, and pie chart; tested on IBM FinQA (87% SUPPORTED detection, 79% HALLUCINATED detection)
+- `PyTorch` `HuggingFace Transformers` `Sentence-Transformers` `Streamlit` `spaCy`
 ---
 
 ### 🤖 [Large-Scale Reasoning Optimization via LLM Fine-Tuning](https://github.com/RishCapitalent18/Project-Reasoning-SFT-LLM) *
