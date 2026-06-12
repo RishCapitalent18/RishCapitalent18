@@ -45,6 +45,14 @@ Currently open to **AI Engineer**, **Security Engineer**  and **Data Analyst** r
 
 > *Projects marked \* are collaborative group work - I've described my specific contributions in each repo's README.*
 ---
+### 📊 [Credit Card Fraud & Spending Analytics](https://github.com/RishCapitalent18/credit-card-sql-analytics)
+SQL-driven fraud detection and spending analysis on 1.3M+ synthetic credit card transactions using DuckDB.
+
+- Identified a **20–30× fraud rate spike at 10–11pm** vs daytime hours through hour-of-day aggregation
+- Built anomaly detection flagging transactions > 2× a customer's baseline spend (surfaced 386× outliers)
+- Segmented customers into HIGH / MEDIUM / LOW risk tiers using CTEs and CASE logic
+- `DuckDB` `SQL` `Python` `pandas`
+---
 ### 🔍 [Financial LLM Hallucination Detector](https://github.com/RishCapitalent18/financial-hallucination-detector)
 Built a multi-signal hallucination detection pipeline for LLM-generated financial text and no API key required.
 
