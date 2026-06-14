@@ -79,7 +79,7 @@ Fine-tuned **Qwen2.5-3B Instruct** using supervised fine-tuning (SFT) to improve
 
 ---
 
-### 🧠 [Hallucination Mitigation in LLMs — Knowledge Graphs + MoE](https://github.com/RishCapitalent18/Fact-Checking-QnA-System--CG-and-MOEs) *
+### 🧠 [Hallucination Mitigation in LLMs - Knowledge Graphs + MoE](https://github.com/RishCapitalent18/Fact-Checking-QnA-System--CG-and-MOEs) *
 Designed a Knowledge-Graph-grounded Mixture-of-Experts QA system to reduce hallucinations in LLM outputs.
 
 - Created and validated domain-specific datasets to analyze failure modes and expert routing behavior
@@ -88,7 +88,7 @@ Designed a Knowledge-Graph-grounded Mixture-of-Experts QA system to reduce hallu
 
 ---
 
-### 🚨 [Credit Card Fraud Detection — End-to-End ML Pipeline](https://github.com/RishCapitalent18/credit-card-fraud-detection-ml)
+### 🚨 [Credit Card Fraud Detection - End-to-End ML Pipeline](https://github.com/RishCapitalent18/credit-card-fraud-detection-ml)
 Solo project. Built a fraud detection system combining **Self-Organizing Maps** for anomaly detection with a neural network classifier.
 
 - Optimized probability-based scoring pipeline; achieved **93.19% detection accuracy**
@@ -96,7 +96,7 @@ Solo project. Built a fraud detection system combining **Self-Organizing Maps** 
 
 ---
 
-### 📦 [Real-Time Suspicious Baggage Detection — YOLO](https://github.com/RishCapitalent18/Suspicious-Baggage-Detection-System) *
+### 📦 [Real-Time Suspicious Baggage Detection - YOLO](https://github.com/RishCapitalent18/Suspicious-Baggage-Detection-System) *
 YOLOv5-based object detection system for identifying suspicious items in real-time baggage screening.
 
 - Improved F1-confidence and precision-recall curves using focal loss; achieved **90.35% accuracy**
