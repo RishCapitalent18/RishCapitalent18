@@ -44,6 +44,15 @@ Currently open to **AI Engineer**, **Security Engineer**  and **Data Analyst** r
 ## 🔬 Featured Projects
 
 > *Projects marked \* are collaborative group work - I've described my specific contributions in each repo's README.*
+
+---
+### ☁️ [Fraud Detection API — AWS Lambda + S3](https://github.com/RishCapitalent18/aws-fraud-detector)
+End-to-end MLOps pipeline: train a fraud detection model and deploy it serverlessly on AWS.
+
+- Trained RandomForest on 1.3M transactions (ROC-AUC 0.9943); packaged and uploaded model artifact to S3
+- Deployed inference endpoint on AWS Lambda (Python 3.13, 512MB) - cold start ~700ms, warm inference ~270ms
+- Monitored via CloudWatch; architecture demonstrates full train → store → serve production loop
+- `AWS Lambda` `S3` `CloudWatch` `scikit-learn` `Python`
 ---
 ### 📊 [Credit Card Fraud & Spending Analytics](https://github.com/RishCapitalent18/credit-card-sql-analytics)
 SQL-driven fraud detection and spending analysis on 1.3M+ synthetic credit card transactions using DuckDB.
