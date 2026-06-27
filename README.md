@@ -44,22 +44,22 @@ Currently open to **AI Engineer**, **ML Engineer**, and **Data Analyst** roles i
 
 ## 🔬 Featured Projects
 
-> *Projects marked \* are collaborative group work — I've described my specific contributions in each repo's README.*
+> *Projects marked \* are collaborative group work - I've described my specific contributions in each repo's README.*
 
 ---
 
 ### 🛡️ [LLM Guardrail Benchmark & Bypass Analyzer](https://github.com/RishCapitalent18/llm-guardrail-analyzer)
 Built an adversarial benchmark to measure how well LLM safety guardrails hold up against real jailbreak attacks — combining AI engineering with offensive security thinking.
 
-- Designed a **3-layer defense system**: regex/keyword filter (~1ms), HuggingFace toxicity classifier (~310ms), and a zero-shot NLI judge (~198ms) — same defense-in-depth architecture used by Meta's Llama Guard
+- Designed a **3-layer defense system**: regex/keyword filter (~1ms), HuggingFace toxicity classifier (~310ms), and a zero-shot NLI judge (~198ms) - same defense-in-depth architecture used by Meta's Llama Guard
 - Built the **attack bench first**: 50 adversarial prompts across 10 categories (DAN, prompt injection, token smuggling, role-play, gradual escalation, authority impersonation, obfuscation, and more)
-- Benchmark output: precision, recall, F1, per-layer catch rates, per-category bypass rates — answers "which attacks slip through, and which layer fails?" with data, not assumptions
-- Streamlit dashboard with live prompt tester, bypass heatmap, and confusion matrix; fully local, no API key required
+- Benchmark output: precision, recall, F1, per-layer catch rates, per-category bypass rates - answers "which attacks slip through, and which layer fails?" with data, not assumptions
+- Streamlit dashboard with live prompt tester, bypass heatmap, and confusion matrix
 - `HuggingFace Transformers` `NLI` `Streamlit` `Plotly` `AI Safety` `Adversarial ML`
 
 ---
 
-### ☁️ [Fraud Detection API — AWS Lambda + S3](https://github.com/RishCapitalent18/aws-fraud-detector)
+### ☁️ [Fraud Detection API - AWS Lambda + S3](https://github.com/RishCapitalent18/aws-fraud-detector)
 End-to-end MLOps pipeline: train a fraud detection model and deploy it serverlessly on AWS.
 
 - Trained RandomForest on 1.3M transactions (ROC-AUC 0.9943); packaged and uploaded model artifact to S3
@@ -134,7 +134,7 @@ Managed 140+ cybersecurity and cloud risk assessments through ServiceNow GRC. De
 
 ## 🔧 What I'm Exploring Next
 
-- LLM output-side guardrails — extending the guardrail benchmark to check model responses, not just inputs
+- LLM output-side guardrails - extending the guardrail benchmark to check model responses, not just inputs
 - GRPO-based reinforcement fine-tuning for multi-step reasoning tasks
 - RAG pipeline optimization for domain-specific QA
 - End-to-end analytics pipelines: raw data → insight → decision, not just model output
@@ -143,7 +143,7 @@ Managed 140+ cybersecurity and cloud risk assessments through ServiceNow GRC. De
 
 ## 📫 Let's Connect
 
-Actively looking for **ML/AI Engineer** and **Data Analyst** roles where I can contribute from day one. OPT with STEM OPT option — no sponsorship needed to start.
+Actively looking for **AI Safety **, **AI Engineer** and **Data Analyst** roles where I can contribute from day one. OPT with STEM OPT option — no sponsorship needed to start.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rishabh--karthik--ramesh-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishabh-karthik-ramesh/)
 [![Email](https://img.shields.io/badge/Email-rishabhkramesh@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:rishabhkramesh@gmail.com)
