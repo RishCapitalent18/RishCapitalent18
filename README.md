@@ -4,7 +4,7 @@ I'm an MS Computer Engineering grad from **Virginia Tech** (May 2026), specializ
 
 Before grad school I spent 2+ years at **Wipro** as a Cybersecurity Analyst, where I ran risk assessments, built compliance pipelines, and designed the dashboards that helped teams track what actually mattered. That background shapes how I approach ML work: I think like an attacker, not just a builder - I care about pipelines being reproducible, metrics being interpretable, and results being auditable.
 
-Currently open to **AI Engineer**, **ML Engineer**, and **Data Analyst** roles in the US — OPT, available immediately.
+Currently open to **AI Engineer**, **ML Engineer**, and **Data Analyst** roles in the US - OPT, available immediately.
 
 ---
 
