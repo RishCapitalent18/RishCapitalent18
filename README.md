@@ -1,14 +1,14 @@
 # Hey, I'm Rishabh 👋
 
-I'm an MS Computer Engineering grad from **Virginia Tech** (May 2026), specializing in AI and Data Analytics. I build things at the intersection of **data engineering, machine learning, and enterprise risk**  from LLM fine-tuning pipelines to fraud detection systems to GRC dashboards that actually get used.
+MS Computer Engineering from **Virginia Tech** (May 2026), focused on AI and Data Analytics. I spend most of my time building things where machine learning meets real-world risk — fraud detection, safety guardrails, agentic systems, hallucination pipelines. The kind of stuff that has to actually work, not just score well on a benchmark.
 
-Before grad school I spent 2+ years at **Wipro** as a Cybersecurity Analyst, where I ran risk assessments, built compliance pipelines, and designed the dashboards that helped teams track what actually mattered. That background shapes how I approach ML work: I think like an detective, not just a builder - I care about pipelines being reproducible, metrics being interpretable, and results being auditable.
+Before grad school I spent 2+ years at **Wipro** as a Cybersecurity Analyst — running risk assessments, building compliance pipelines, and designing dashboards that security teams actually used. That background sticks with me. I think like a detective, not just a builder — I care about pipelines being reproducible, metrics being interpretable, and results being auditable.
 
-Currently open to **AI Engineer**, **ML Engineer**, and **Data Analyst** roles in the US - OPT (NO Sponsorship required for 3 years), available immediately.
+Looking for **AI Safety**, **AI Engineer**, **ML Engineer**, or **Data Analyst** roles in the US. OPT ready, no sponsorship required for 3 years, available immediately.
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 **Languages**
 
@@ -42,108 +42,119 @@ Currently open to **AI Engineer**, **ML Engineer**, and **Data Analyst** roles i
 
 ---
 
-## 🔬 Featured Projects
+# 🔬 Featured Projects
 
-> *Projects marked \* are collaborative group work - I've described my specific contributions in each repo's README.*
+> *Projects marked \* are group work — my specific contributions are in each repo's README.*
 
 ---
 
-### 🛡️ [LLM Guardrail Benchmark & Bypass Analyzer](https://github.com/RishCapitalent18/llm-guardrail-analyzer)
-Built an adversarial benchmark to measure how well LLM safety guardrails hold up against real jailbreak attacks - combining AI engineering with offensive security thinking.
+## 🎸 [Music Agent Red Team — Agentic AI Security Demo](https://github.com/RishCapitalent18/music-agent-redteam)
+I built a music theory AI agent and then attacked it — not through the user query, but through the retrieval corpus and tool outputs. The goal was to show where agentic AI systems actually break, and why an input-side safety filter doesn't help you there.
 
-- Designed a **3-layer defense system**: regex/keyword filter (~1ms), HuggingFace toxicity classifier (~310ms), and a zero-shot NLI judge (~198ms) - same defense-in-depth architecture used by Meta's Llama Guard
-- Built the **attack bench first**: 50 adversarial prompts across 10 categories (DAN, prompt injection, token smuggling, role-play, gradual escalation, authority impersonation, obfuscation, and more)
-- Benchmark output: precision, recall, F1, per-layer catch rates, per-category bypass rates - answers "which attacks slip through, and which layer fails?" with data, not assumptions
-- Streamlit dashboard with live prompt tester, bypass heatmap, and confusion matrix
+- Ran three attack types against a live ReAct agent: indirect prompt injection (poisoned content in retrieved artist bios), tool poisoning (compromised tool returning adversarial payloads), and goal hijacking (injecting a new objective mid-reasoning chain)
+- Built both obvious and subtle variants of each attack — obvious ones use keywords like "SYSTEM OVERRIDE" and get caught, subtle ones use indirect scope-expansion language and slip past the detector entirely; that gap is the point
+- Red team results: 86% precision, 67% recall, 1 false positive — the false positive came from a totally normal query that happened to contain "my new goal is", which shows how brittle keyword-based detection really is
+- Pairs with the LLM Guardrail Benchmark below — together they cover both ends of the safety problem: blocking bad inputs and securing what happens after
+- `ReAct Agent` `Agentic AI Security` `Red Teaming` `Prompt Injection` `Streamlit`
+
+---
+
+## 🛡️ [LLM Guardrail Benchmark & Bypass Analyzer](https://github.com/RishCapitalent18/llm-guardrail-analyzer)
+I wanted to know how well LLM safety guardrails actually hold up — not in theory, but against real attack prompts. So I built the attack set first, then built the defense, then measured it.
+
+- Three-layer defense: a fast regex filter (~1ms), a HuggingFace toxicity classifier (~310ms), and a zero-shot NLI judge (~198ms) — same layered architecture used in Meta's Llama Guard
+- 50 adversarial prompts across 10 categories: DAN, prompt injection, token smuggling, role-play, gradual escalation, authority impersonation, obfuscation, and more
+- Outputs precision, recall, F1, per-layer catch rates, and per-category bypass rates — so you can actually see which attacks slip through and which layer is letting them
+- Streamlit dashboard with a live prompt tester, bypass heatmap, and confusion matrix; runs fully local, no API key needed
 - `HuggingFace Transformers` `NLI` `Streamlit` `Plotly` `AI Safety` `Adversarial ML`
 
 ---
 
-### ☁️ [Fraud Detection API - AWS Lambda + S3](https://github.com/RishCapitalent18/aws-fraud-detector)
-End-to-end MLOps pipeline: train a fraud detection model and deploy it serverlessly on AWS.
+## ☁️ [Fraud Detection API — AWS Lambda + S3](https://github.com/RishCapitalent18/aws-fraud-detector)
+Trained a fraud detection model and deployed it as a live serverless API on AWS — full train-to-serve loop.
 
-- Trained RandomForest on 1.3M transactions (ROC-AUC 0.9943); packaged and uploaded model artifact to S3
-- Deployed inference endpoint on AWS Lambda (Python 3.13, 512MB) — cold start ~700ms, warm inference ~270ms
-- Monitored via CloudWatch; architecture demonstrates full train → store → serve production loop
+- RandomForest on 1.3M transactions, ROC-AUC 0.9943; model artifact packaged and stored in S3
+- Deployed on AWS Lambda (Python 3.13, 512MB) — cold start around 700ms, warm inference around 270ms
+- Monitored via CloudWatch; the whole thing is meant to show what a real deployment looks like, not just a notebook
 - `AWS Lambda` `S3` `CloudWatch` `scikit-learn` `Python`
 
 ---
 
-### 📊 [Credit Card Fraud & Spending Analytics](https://github.com/RishCapitalent18/credit-card-sql-analytics)
-SQL-driven fraud detection and spending analysis on 1.3M+ synthetic credit card transactions using DuckDB.
+## 📊 [Credit Card Fraud & Spending Analytics](https://github.com/RishCapitalent18/credit-card-sql-analytics)
+SQL fraud detection and spending analysis across 1.3M+ synthetic credit card transactions in DuckDB.
 
-- Identified a **20–30× fraud rate spike at 10–11pm** vs daytime hours through hour-of-day aggregation
-- Built anomaly detection flagging transactions > 2× a customer's baseline spend (surfaced 386× outliers)
+- Found a 20–30× fraud rate spike at 10–11pm vs. daytime — just from hour-of-day aggregation
+- Built anomaly detection that flags transactions more than 2× a customer's own baseline spend; surfaced 386× outliers
 - Segmented customers into HIGH / MEDIUM / LOW risk tiers using CTEs and CASE logic
 - `DuckDB` `SQL` `Python` `pandas`
 
 ---
 
-### 🔍 [Financial LLM Hallucination Detector](https://github.com/RishCapitalent18/financial-hallucination-detector)
-Multi-signal hallucination detection pipeline for LLM-generated financial text - no API key required.
+## 🔍 [Financial LLM Hallucination Detector](https://github.com/RishCapitalent18/financial-hallucination-detector)
+A multi-signal pipeline for catching hallucinations in LLM-generated financial text — no API key required.
 
-- Combines NLI entailment (`cross-encoder/nli-deberta-v3-small`), numerical consistency checking, and semantic similarity into a weighted hallucination score
-- Streamlit dashboard with claim-by-claim breakdown, gauge chart, and pie chart; tested on IBM FinQA (87% SUPPORTED detection, 79% HALLUCINATED detection)
+- Combines NLI entailment, numerical consistency checking, and semantic similarity into a single weighted hallucination score
+- Tested on IBM FinQA: 87% on supported claims, 79% on hallucinated ones; Streamlit dashboard shows claim-by-claim breakdowns
 - `PyTorch` `HuggingFace Transformers` `Sentence-Transformers` `Streamlit` `spaCy`
 
 ---
 
-### 🤖 [Large-Scale Reasoning Optimization via LLM Fine-Tuning](https://github.com/RishCapitalent18/Project-Reasoning-SFT-LLM) *
-Fine-tuned **Qwen2.5-3B Instruct** using supervised fine-tuning (SFT) to improve multi-step reasoning reliability.
+## 🤖 [Large-Scale Reasoning Optimization via LLM Fine-Tuning](https://github.com/RishCapitalent18/Project-Reasoning-SFT-LLM) *
+Fine-tuned Qwen2.5-3B Instruct on supervised fine-tuning (SFT) to improve how reliably it handles multi-step reasoning.
 
-- Built end-to-end data preparation and training pipelines with dataset normalization, validation, and YAML/Bash-driven configuration for reproducible runs
-- Automated evaluation workflows benchmarked against **AIME 2024/25** and **GPQA Diamond** — achieved **49.4% on GPQA Diamond** (a hard reasoning benchmark where many 7B+ models score below 40%)
+- Built the full data prep and training pipeline — normalization, validation, YAML/Bash-driven config so runs are reproducible
+- Evaluated against AIME 2024/25 and GPQA Diamond; hit 49.4% on GPQA Diamond, which is where a lot of 7B+ models struggle to break 40%
 - `PyTorch` `Hugging Face` `YAML` `Bash`
 
 ---
 
-### 🧠 [Hallucination Mitigation in LLMs - Knowledge Graphs + MoE](https://github.com/RishCapitalent18/Fact-Checking-QnA-System--CG-and-MOEs) *
-Designed a Knowledge-Graph-grounded Mixture-of-Experts QA system to reduce hallucinations in LLM outputs.
+## 🧠 [Hallucination Mitigation in LLMs — Knowledge Graphs + MoE](https://github.com/RishCapitalent18/Fact-Checking-QnA-System--CG-and-MOEs) *
+A knowledge-graph-grounded Mixture-of-Experts QA system designed to reduce hallucinations in LLM outputs.
 
-- Created and validated domain-specific datasets to analyze failure modes and expert routing behavior
-- Trained on **Qwen2.5-3B**, reducing training loss below **0.1**; deployed Streamlit dashboards to monitor accuracy and fairness trends
+- Built and validated domain-specific datasets to study failure modes and how experts get routed
+- Trained on Qwen2.5-3B, got training loss below 0.1; Streamlit dashboards to track accuracy and fairness
 - `PyTorch` `Knowledge Graphs` `Streamlit` `Qwen2.5`
 
 ---
 
-### 🚨 [Credit Card Fraud Detection - End-to-End ML Pipeline](https://github.com/RishCapitalent18/credit-card-fraud-detection-ml)
-Solo project. Built a fraud detection system combining **Self-Organizing Maps** for anomaly detection with a neural network classifier.
+## 🚨 [Credit Card Fraud Detection — End-to-End ML Pipeline](https://github.com/RishCapitalent18/credit-card-fraud-detection-ml)
+Solo project combining Self-Organizing Maps for anomaly detection with a neural network classifier.
 
-- Optimized probability-based scoring pipeline; achieved **93.19% detection accuracy**
+- Probability-based scoring pipeline; 93.19% detection accuracy
 - `TensorFlow` `Keras` `NumPy` `Pandas`
 
 ---
 
-### 📦 [Real-Time Suspicious Baggage Detection - YOLO](https://github.com/RishCapitalent18/Suspicious-Baggage-Detection-System) *
-YOLOv5-based object detection system for identifying suspicious items in real-time baggage screening.
+## 📦 [Real-Time Suspicious Baggage Detection — YOLO](https://github.com/RishCapitalent18/Suspicious-Baggage-Detection-System) *
+YOLOv5 object detection for identifying suspicious items in real-time baggage screening.
 
-- Improved F1-confidence and precision-recall curves using focal loss; achieved **90.35% accuracy**
+- Used focal loss to improve F1 and precision-recall curves; 90.35% accuracy
 - `YOLOv5` `Python` `OpenCV` `Streamlit`
 
 ---
 
-## 💼 Work Highlights
+# 💼 Work
 
-**Path Perception & Validation Engineer - Victor Tango SAE, Virginia Tech** *(Sep 2024 – Aug 2025)*
-Built a ROS-integrated MATLAB bench-testing framework to validate ADAS path perception pipelines. Engineered a PostgreSQL-backed Dijkstra routing system generating 4096-point waypoint arrays at ±1m centerline accuracy with <500ms response time.
+**Path Perception & Validation Engineer — Victor Tango SAE, Virginia Tech** *(Sep 2024 – Aug 2025)*
+Built a ROS-integrated MATLAB bench-testing framework to validate ADAS path perception pipelines. Built a PostgreSQL-backed Dijkstra routing system that generates 4096-point waypoint arrays at ±1m centerline accuracy with under 500ms response time.
 
-**Cybersecurity Analyst L2 - GRC, Risk & Data Analytics @ Wipro** *(Apr 2022 – Aug 2024)*
-Managed 140+ cybersecurity and cloud risk assessments through ServiceNow GRC. Designed risk-scoring models that surfaced 37% of critical risks earlier and cut remediation closure time by 25%. Built KPI dashboards used across compliance and security teams.
+**Cybersecurity Analyst L2 — GRC, Risk & Data Analytics @ Wipro** *(Apr 2022 – Aug 2024)*
+Managed 140+ cybersecurity and cloud risk assessments through ServiceNow GRC. Built risk-scoring models that surfaced 37% of critical risks earlier and cut remediation closure time by 25%. Built the KPI dashboards that compliance and security teams actually used day-to-day.
 
 ---
 
-## 🔧 What I'm Exploring Next
+# 🔧 What I'm Working On Next
 
-- LLM output-side guardrails - extending the guardrail benchmark to check model responses, not just inputs
-- GRPO-based reinforcement fine-tuning for multi-step reasoning tasks
+- Output-side guardrails for agentic systems — extending the music agent red team with a response scanner that catches subtle attacks the input filter misses
+- GRPO-based reinforcement fine-tuning for multi-step reasoning
 - RAG pipeline optimization for domain-specific QA
-- End-to-end analytics pipelines: raw data → insight → decision, not just model output
+- End-to-end analytics: raw data to actionable insight, not just model output
 
 ---
 
-## 📫 Let's Connect
+# 📫 Let's Connect
 
-Actively looking for **AI Safety,** **AI Engineer** and **Data Analyst** roles where I can contribute from day one. OPT with STEM OPT option — no sponsorship needed to start.
+Looking for **AI Safety**, **AI Engineer**, and **Data Analyst** roles where I can contribute from day one. OPT with STEM extension — no sponsorship needed to start.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rishabh--karthik--ramesh-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishabh-karthik-ramesh/)
 [![Email](https://img.shields.io/badge/Email-rishabhkramesh@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:rishabhkramesh@gmail.com)
