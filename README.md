@@ -124,10 +124,10 @@ YOLOv5-based object detection system for identifying suspicious items in real-ti
 
 ## 💼 Work Highlights
 
-**Path Perception & Validation Engineer — Victor Tango SAE, Virginia Tech** *(Sep 2024 – Aug 2025)*
+**Path Perception & Validation Engineer - Victor Tango SAE, Virginia Tech** *(Sep 2024 – Aug 2025)*
 Built a ROS-integrated MATLAB bench-testing framework to validate ADAS path perception pipelines. Engineered a PostgreSQL-backed Dijkstra routing system generating 4096-point waypoint arrays at ±1m centerline accuracy with <500ms response time.
 
-**Cybersecurity Analyst L2 — GRC, Risk & Data Analytics @ Wipro** *(Apr 2022 – Aug 2024)*
+**Cybersecurity Analyst L2 - GRC, Risk & Data Analytics @ Wipro** *(Apr 2022 – Aug 2024)*
 Managed 140+ cybersecurity and cloud risk assessments through ServiceNow GRC. Designed risk-scoring models that surfaced 37% of critical risks earlier and cut remediation closure time by 25%. Built KPI dashboards used across compliance and security teams.
 
 ---
