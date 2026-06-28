@@ -1,4 +1,4 @@
-# Hi, I'm Rishabh 👋
+# Hey, I'm Rishabh 👋
 
 I'm an MS Computer Engineering grad from **Virginia Tech** (May 2026), specializing in AI and Data Analytics. I build things at the intersection of **data engineering, machine learning, and enterprise risk**  from LLM fine-tuning pipelines to fraud detection systems to GRC dashboards that actually get used.
 
