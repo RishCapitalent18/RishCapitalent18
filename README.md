@@ -143,7 +143,7 @@ Managed 140+ cybersecurity and cloud risk assessments through ServiceNow GRC. De
 
 ## 📫 Let's Connect
 
-Actively looking for **AI Safety **, **AI Engineer** and **Data Analyst** roles where I can contribute from day one. OPT with STEM OPT option — no sponsorship needed to start.
+Actively looking for **AI Safety,** **AI Engineer** and **Data Analyst** roles where I can contribute from day one. OPT with STEM OPT option — no sponsorship needed to start.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rishabh--karthik--ramesh-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishabh-karthik-ramesh/)
 [![Email](https://img.shields.io/badge/Email-rishabhkramesh@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:rishabhkramesh@gmail.com)
