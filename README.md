@@ -49,7 +49,7 @@ Currently open to **AI Engineer**, **ML Engineer**, and **Data Analyst** roles i
 ---
 
 ### 🛡️ [LLM Guardrail Benchmark & Bypass Analyzer](https://github.com/RishCapitalent18/llm-guardrail-analyzer)
-Built an adversarial benchmark to measure how well LLM safety guardrails hold up against real jailbreak attacks — combining AI engineering with offensive security thinking.
+Built an adversarial benchmark to measure how well LLM safety guardrails hold up against real jailbreak attacks - combining AI engineering with offensive security thinking.
 
 - Designed a **3-layer defense system**: regex/keyword filter (~1ms), HuggingFace toxicity classifier (~310ms), and a zero-shot NLI judge (~198ms) - same defense-in-depth architecture used by Meta's Llama Guard
 - Built the **attack bench first**: 50 adversarial prompts across 10 categories (DAN, prompt injection, token smuggling, role-play, gradual escalation, authority impersonation, obfuscation, and more)
