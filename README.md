@@ -80,7 +80,7 @@ SQL-driven fraud detection and spending analysis on 1.3M+ synthetic credit card 
 ---
 
 ### 🔍 [Financial LLM Hallucination Detector](https://github.com/RishCapitalent18/financial-hallucination-detector)
-Multi-signal hallucination detection pipeline for LLM-generated financial text — no API key required.
+Multi-signal hallucination detection pipeline for LLM-generated financial text - no API key required.
 
 - Combines NLI entailment (`cross-encoder/nli-deberta-v3-small`), numerical consistency checking, and semantic similarity into a weighted hallucination score
 - Streamlit dashboard with claim-by-claim breakdown, gauge chart, and pie chart; tested on IBM FinQA (87% SUPPORTED detection, 79% HALLUCINATED detection)
