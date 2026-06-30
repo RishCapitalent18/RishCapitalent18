@@ -2,7 +2,7 @@
 
 MS Computer Engineering from **Virginia Tech** (May 2026), focused on AI and Data Analytics. I spend most of my time building things where machine learning meets real-world risk — fraud detection, safety guardrails, agentic systems, hallucination pipelines. The kind of stuff that has to actually work, not just score well on a benchmark.
 
-Before grad school I spent 2+ years at **Wipro** as a Cybersecurity Analyst — running risk assessments, building compliance pipelines, and designing dashboards that security teams actually used. That background sticks with me. I think like a detective, not just a builder — I care about pipelines being reproducible, metrics being interpretable, and results being auditable.
+Before grad school I spent 2+ years at **Wipro** as a Cybersecurity Analyst - running risk assessments, building compliance pipelines, and designing dashboards that security teams actually used. That background sticks with me. I think like a detective, not just a builder - I care about pipelines being reproducible, metrics being interpretable, and results being auditable.
 
 Looking for **AI Safety**, **AI Engineer**, **ML Engineer**, or **Data Analyst** roles in the US. OPT ready, no sponsorship required for 3 years, available immediately.
 
@@ -70,7 +70,7 @@ I wanted to know how well LLM safety guardrails actually hold up — not in theo
 
 ---
 
-## ☁️ [Fraud Detection API — AWS Lambda + S3](https://github.com/RishCapitalent18/aws-fraud-detector)
+## ☁️ [Fraud Detection API - AWS Lambda + S3](https://github.com/RishCapitalent18/aws-fraud-detector)
 Trained a fraud detection model and deployed it as a live serverless API on AWS — full train-to-serve loop.
 
 - RandomForest on 1.3M transactions, ROC-AUC 0.9943; model artifact packaged and stored in S3
@@ -117,7 +117,7 @@ A knowledge-graph-grounded Mixture-of-Experts QA system designed to reduce hallu
 
 ---
 
-## 🚨 [Credit Card Fraud Detection — End-to-End ML Pipeline](https://github.com/RishCapitalent18/credit-card-fraud-detection-ml)
+## 🚨 [Credit Card Fraud Detection - End-to-End ML Pipeline](https://github.com/RishCapitalent18/credit-card-fraud-detection-ml)
 Solo project combining Self-Organizing Maps for anomaly detection with a neural network classifier.
 
 - Probability-based scoring pipeline; 93.19% detection accuracy
@@ -125,7 +125,7 @@ Solo project combining Self-Organizing Maps for anomaly detection with a neural 
 
 ---
 
-## 📦 [Real-Time Suspicious Baggage Detection — YOLO](https://github.com/RishCapitalent18/Suspicious-Baggage-Detection-System) *
+## 📦 [Real-Time Suspicious Baggage Detection - YOLO](https://github.com/RishCapitalent18/Suspicious-Baggage-Detection-System) *
 YOLOv5 object detection for identifying suspicious items in real-time baggage screening.
 
 - Used focal loss to improve F1 and precision-recall curves; 90.35% accuracy
