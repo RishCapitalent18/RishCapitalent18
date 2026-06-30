@@ -1,6 +1,6 @@
 # Hey, I'm Rishabh 👋
 
-MS Computer Engineering from **Virginia Tech** (May 2026), focused on AI and Data Analytics. I spend most of my time building things where machine learning meets real-world risk - fraud detection, safety guardrails, agentic systems, hallucination pipelines. The kind of stuff that has to actually work, not just score well on a benchmark.
+MS Computer Engineering from **Virginia Tech** (May 2026), focused on AI and Data Analytics. I spend most of my time building things where machine learning meets real-world risk and fraud detection, safety guardrails, agentic systems, hallucination pipelines. The kind of stuff that has to actually work, not just score well on a benchmark.
 
 Before grad school I spent 2+ years at **Wipro** as a Cybersecurity Analyst - running risk assessments, building compliance pipelines, and designing dashboards that security teams actually used. That background sticks with me. I think like a detective, not just a builder - I care about pipelines being reproducible, metrics being interpretable, and results being auditable.
 
