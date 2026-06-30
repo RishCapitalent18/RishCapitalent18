@@ -83,7 +83,7 @@ Trained a fraud detection model and deployed it as a live serverless API on AWS 
 ## 📊 [Credit Card Fraud & Spending Analytics](https://github.com/RishCapitalent18/credit-card-sql-analytics)
 SQL fraud detection and spending analysis across 1.3M+ synthetic credit card transactions in DuckDB.
 
-- Found a 20–30× fraud rate spike at 10–11pm vs. daytime — just from hour-of-day aggregation
+- Found a 20–30× fraud rate spike at 10–11pm vs. daytime - just from hour-of-day aggregation
 - Built anomaly detection that flags transactions more than 2× a customer's own baseline spend; surfaced 386× outliers
 - Segmented customers into HIGH / MEDIUM / LOW risk tiers using CTEs and CASE logic
 - `DuckDB` `SQL` `Python` `pandas`
