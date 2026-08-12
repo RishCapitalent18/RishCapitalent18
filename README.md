@@ -4,7 +4,7 @@ MS Computer Engineering from **Virginia Tech** (May 2026), focused on AI and Dat
 
 Before grad school I spent 2+ years at **Wipro** as a Cybersecurity Analyst - running risk assessments, building compliance pipelines, and designing dashboards that security teams actually used. That background sticks with me. I think like a detective, not just a builder - I care about pipelines being reproducible, metrics being interpretable, and results being auditable.
 
-Looking for **AI Safety**, **AI Engineer**, **ML Engineer**, or **Data Analyst** roles in the US. OPT ready, no sponsorship required for 3 years, available immediately.
+Looking for **AI Safety**, **AI Engineer**, **ML Engineer**, or **Data Analyst** roles in the US. 
 
 ---
 
