@@ -4,7 +4,7 @@ MS Computer Engineering from **Virginia Tech** (May 2026), focused on AI and Dat
 
 Before grad school I spent 2+ years at **Wipro** as a Cybersecurity Analyst - running risk assessments, building compliance pipelines, and designing dashboards that security teams actually used. That background sticks with me. I think like a detective, not just a builder - I care about pipelines being reproducible, metrics being interpretable, and results being auditable.
 
-Looking for **AI Safety**, **AI Engineer**, **ML Engineer**, or **Data Analyst** roles in the US. 
+Looking for **AI Safety**, **AI Engineer**, **Business Analyst**, or **Data Analyst** roles in the US. 
 
 ---
 
@@ -135,10 +135,10 @@ YOLOv5 object detection for identifying suspicious items in real-time baggage sc
 
 # 💼 Work
 
-**Path Perception & Validation Engineer — Victor Tango SAE, Virginia Tech** *(Sep 2024 – Aug 2025)*
+**Path Perception & Validation Engineer - Victor Tango SAE, Virginia Tech** *(Sep 2024 – Aug 2025)*
 Built a ROS-integrated MATLAB bench-testing framework to validate ADAS path perception pipelines. Built a PostgreSQL-backed Dijkstra routing system that generates 4096-point waypoint arrays at ±1m centerline accuracy with under 500ms response time.
 
-**Cybersecurity Analyst L2 — GRC, Risk & Data Analytics @ Wipro** *(Apr 2022 – Aug 2024)*
+**Cybersecurity Analyst L2 - GRC, Risk & Data Analytics @ Wipro** *(Apr 2022 – Aug 2024)*
 Managed 140+ cybersecurity and cloud risk assessments through ServiceNow GRC. Built risk-scoring models that surfaced 37% of critical risks earlier and cut remediation closure time by 25%. Built the KPI dashboards that compliance and security teams actually used day-to-day.
 
 ---
@@ -154,7 +154,7 @@ Managed 140+ cybersecurity and cloud risk assessments through ServiceNow GRC. Bu
 
 # 📫 Let's Connect
 
-Looking for **AI Safety**, **AI Engineer**, and **Data Analyst** roles where I can contribute from day one. OPT with STEM extension — no sponsorship needed to start.
+Looking for **AI Safety**, **AI Engineer**, **Business Analyst** and **Data Analyst** roles where I can contribute from day one. 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rishabh--karthik--ramesh-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishabh-karthik-ramesh/)
 [![Email](https://img.shields.io/badge/Email-rishabhkramesh@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:rishabhkramesh@gmail.com)
