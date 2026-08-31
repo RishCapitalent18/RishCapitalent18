@@ -145,7 +145,7 @@ Managed 140+ cybersecurity and cloud risk assessments through ServiceNow GRC. Bu
 
 # 🔧 What I'm Working On Next
 
-- Output-side guardrails for agentic systems — extending the music agent red team with a response scanner that catches subtle attacks the input filter misses
+- Output-side guardrails for agentic systems - extending the music agent red team with a response scanner that catches subtle attacks the input filter misses
 - GRPO-based reinforcement fine-tuning for multi-step reasoning
 - RAG pipeline optimization for domain-specific QA
 - End-to-end analytics: raw data to actionable insight, not just model output
